@@ -18,7 +18,7 @@ pip install -r requirements.txt
 1. Clonar el repositorio y abrir `proyecto_integrador_entrega.ipynb` desde la carpeta del repositorio.
 2. Ejecutar todas las celdas en orden (Kernel → Restart & Run All).
 
-La base de datos ya está incluida en `data/usu_individual_T126.xlsx`, así que no hay que descargar nada. La ejecución completa tarda unos 3 minutos, más alrededor de 1,5 minutos la primera vez, porque se lee el `.xlsx` y se guarda una copia en `data/usu_individual_T126.parquet` que acelera las ejecuciones siguientes. Las tablas y figuras se guardan en `results/`.
+La base de datos no está incluida por lo que se debe descargar desde el siguiente enlace https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos debe ser la correspondiente al primer trimestre de 2026. La ejecución completa tarda unos 3 minutos, más alrededor de 1,5 minutos la primera vez, porque se lee el `.xlsx` y se guarda una copia en `data/usu_individual_T126.parquet` que acelera las ejecuciones siguientes. Las tablas y figuras se guardan en `results/`.
 
 ### En Google Colab
 
